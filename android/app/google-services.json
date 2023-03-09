@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "646958135374",
+    "project_id": "flutter-bloc-64ed9",
+    "storage_bucket": "flutter-bloc-64ed9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646958135374:android:d9d17197fda55e9c90ab1f",
+        "android_client_info": {
+          "package_name": "com.example.fire_hex_bloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646958135374-5rrr5a16ndk8mp41j37uarbof304dsuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjdq6mJj_SCK_l0P7ipF34muu_OYGbKP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646958135374-5rrr5a16ndk8mp41j37uarbof304dsuv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "646958135374-v12shfj5citupnm613bcdkc678g3lq1q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseCleanBloc"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646958135374:android:e30eae246b2bee1290ab1f",
+        "android_client_info": {
+          "package_name": "com.example.firebase_clean_bloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646958135374-5rrr5a16ndk8mp41j37uarbof304dsuv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjdq6mJj_SCK_l0P7ipF34muu_OYGbKP4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646958135374-5rrr5a16ndk8mp41j37uarbof304dsuv.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "646958135374-v12shfj5citupnm613bcdkc678g3lq1q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firebaseCleanBloc"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
