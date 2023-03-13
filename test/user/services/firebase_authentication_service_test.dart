@@ -15,10 +15,13 @@ void main() {
     GetIt.instance.registerSingleton<FirebaseAuth>(
       MockFirebaseAuth(mockUser: user),
     );
+    GetIt.instance.registerSingleton<AuthenticationService>(
+      FirebaseAuthenticationService(),
+    );
     test('Should be a subclass of UseCase', () async {
       var repository = FirebaseAuthenticationService();
       expect(repository, isA<AuthenticationService>());
-      repository.register(user.email!, '123456');
+      repository.register(user.email!, user.displayName!, '123456');
     });
   });
 }

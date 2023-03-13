@@ -1,4 +1,10 @@
-abstract class Failure {
-  final String message;
-  Failure({this.message = 'Something went wrong'});
+import 'package:equatable/equatable.dart';
+
+abstract class Failure extends Equatable {
+  String get message;
+  @override
+  List<Object> get props => [message];
+
+  @override
+  bool get stringify => true;
 }

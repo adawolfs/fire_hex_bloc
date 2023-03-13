@@ -1,12 +1,13 @@
 import 'package:fire_hex_bloc/common/domain/failure.dart';
 
 class RegistrationFailure extends Failure {
-  RegistrationFailure({String message = 'Registration Failed'})
-      : super(message: message);
+  @override
+  final String message;
+  RegistrationFailure({this.message = 'Registration Failure'});
 }
 
 class InvalidEmail extends RegistrationFailure {
-  InvalidEmail() : super(message: 'Invalid email');
+  InvalidEmail() : super(message: 'Invalid Email');
 }
 
 class PasswordDoesNotMatch extends RegistrationFailure {

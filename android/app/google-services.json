@@ -31,10 +31,10 @@
               "client_type": 3
             },
             {
-              "client_id": "646958135374-v12shfj5citupnm613bcdkc678g3lq1q.apps.googleusercontent.com",
+              "client_id": "646958135374-haoklhfr6rt1eb70ii7eglmt878iig97.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.firebaseCleanBloc"
+                "bundle_id": "com.example.fireHexBloc"
               }
             }
           ]
@@ -67,10 +67,10 @@
               "client_type": 3
             },
             {
-              "client_id": "646958135374-v12shfj5citupnm613bcdkc678g3lq1q.apps.googleusercontent.com",
+              "client_id": "646958135374-haoklhfr6rt1eb70ii7eglmt878iig97.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.example.firebaseCleanBloc"
+                "bundle_id": "com.example.fireHexBloc"
               }
             }
           ]
