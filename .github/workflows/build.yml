@@ -1,0 +1,28 @@
+name: Build
+on: push
+permissions:
+  contents: write
+jobs:
+  build:
+    name: build flutter web
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: subosito/flutter-action@v1
+      with:
+        flutter-version: '3.7.6'
+    - name: create firebase-config
+      run: |
+          echo $FIREBASE_CONFIG >> ./lib/firebase_options.dart
+      shell: bash
+      env:
+        FIREBASE_CONFIG : ${{ vars.VARIABLE }}
+    - run: flutter pub get
+    - run: flutter --version
+    - run: flutter build web --web-renderer=canvaskit --no-sound-null-safety --base-href "/fire_hex_bloc/"
+    - name: Deploy 🚀
+      uses: JamesIves/github-pages-deploy-action@v4.4.1
+      with:
+        branch: gh-pages # The branch the action should deploy to.
+        folder: build/web # The folder the action should deploy.
+        clean: true # Clean destination before deploy files
